@@ -8,7 +8,7 @@
 		"DeathlyKH"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://github.com/DeathlyKH/AncientMyth",
 		"sources": "https://github.com/DeathlyKH/AncientMyth"
 	},
 	"license": "All Rights Reserved",
@@ -25,13 +25,7 @@
 			"com.gyc.ancientmyth.client.AncientMythDataGenerator"
 		]
 	},
-	"mixins": [
-		"ancient-myth.mixins.json",
-		{
-			"config": "ancient-myth.client.mixins.json",
-			"environment": "client"
-		}
-	],
+
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~26.3",
