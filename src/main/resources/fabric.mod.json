@@ -3,15 +3,15 @@
 	"id": "ancient-myth",
 	"version": "${version}",
 	"name": "Ancient Myth",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Vanilla+ exploration and combat mod centered on ancient flora, forgotten knowledge, and lost worlds. Discover and cultivate ancient plants, harness their properties through brewing and inscriptions, explore mysterious structures, challenge powerful foes, and uncover secrets buried beyond the ancient cities.",
 	"authors": [
-		"Me!"
+		"DeathlyKH"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/DeathlyKH/AncientMyth"
 	},
-	"license": "CC0-1.0",
+	"license": "All Rights Reserved",
 	"icon": "assets/ancient-myth/icon.png",
 	"environment": "*",
 	"entrypoints": {
