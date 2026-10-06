@@ -1,6 +1,7 @@
 package com.gyc.ancientmyth.registry;
 
 import com.gyc.ancientmyth.AncientMyth;
+import com.gyc.ancientmyth.block.PlantResearchTableBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -82,6 +83,16 @@ public final class ModBlocks {
         );
     }
 
+    public static final Block PLANT_RESEARCH_TABLE = register(
+            "plant_research_table",
+            PlantResearchTableBlock::new,
+            BlockBehaviour.Properties.of()
+                    .strength(1.5F)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+    );
+
     public static void initialize() {
+
     }
 }

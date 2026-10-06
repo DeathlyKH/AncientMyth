@@ -8,6 +8,8 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import com.gyc.ancientmyth.registry.ModBlockEntities;
+import com.gyc.ancientmyth.registry.ModMenus;
 
 public class AncientMyth implements ModInitializer {
 
@@ -19,9 +21,14 @@ public class AncientMyth implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModDataComponents.initialize();
+
 		ModBlocks.initialize();
+		ModBlockEntities.initialize();
+
 		ModItems.initialize();
 		ModEntities.initialize();
+
+		ModMenus.initialize();
 
 		LOGGER.info("[ancient-myth] Initialized Successfully!");
 	}

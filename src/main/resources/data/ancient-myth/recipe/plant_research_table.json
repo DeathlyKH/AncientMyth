@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GDG",
+    " P "
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "D": "minecraft:dirt",
+    "P": "minecraft:decorated_pot"
+  },
+  "result": {
+    "id": "ancient-myth:plant_research_table",
+    "count": 1
+  }
+}
