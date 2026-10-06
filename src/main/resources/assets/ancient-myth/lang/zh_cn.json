@@ -1,3 +1,13 @@
 {
-  "block.ancient-myth.plant_research_table": "植物研究台"
+  "block.ancient-myth.plant_research_table": "植物研究台",
+
+  "item.ancient-myth.ancient_armor_trim_smithing_template": "远古盔甲纹饰",
+  "item.ancient-myth.ancient_ruins_compass": "远古遗迹指南针",
+  "item.ancient-myth.test_arcane": "ARCANE 测试",
+  "item.ancient-myth.test_legendary": "LEGENDARY 测试",
+  "item.ancient-myth.test_forbidden": "FORBIDDEN 测试",
+  "item.ancient-myth.test_myth": "MYTH 测试",
+
+  "entity.minecraft.villager.ancient-myth.naturalist": "博物学家"
+
 }

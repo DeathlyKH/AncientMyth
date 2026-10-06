@@ -1,0 +1,7 @@
+{
+  "wants": {"id": "minecraft:emerald", "count": 40},
+  "gives": {"id": "minecraft:pitcher_pod"},
+  "max_uses": 6,
+  "xp": 30,
+  "reputation_discount": 0.05
+}

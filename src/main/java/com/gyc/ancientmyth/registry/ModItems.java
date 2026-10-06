@@ -42,6 +42,48 @@ public final class ModItems {
         );
     }
 
+    public static final Item ANCIENT_ARMOR_TRIM_SMITHING_TEMPLATE =
+            register(
+                    "ancient_armor_trim_smithing_template",
+                    Item::new,
+                    new Item.Properties()
+            );
+
+    public static final Item ANCIENT_RUINS_COMPASS =
+            register(
+                    "ancient_ruins_compass",
+                    Item::new,
+                    new Item.Properties()
+            );
+
+    public static final Item TEST_ARCANE = register(
+            "test_arcane",
+            Item::new,
+            new Item.Properties()
+                    .rarity(ModRarities.ARCANE)
+    );
+
+    public static final Item TEST_LEGENDARY = register(
+            "test_legendary",
+            Item::new,
+            new Item.Properties()
+                    .rarity(ModRarities.LEGENDARY)
+    );
+
+    public static final Item TEST_FORBIDDEN = register(
+            "test_forbidden",
+            Item::new,
+            new Item.Properties()
+                    .rarity(ModRarities.FORBIDDEN)
+    );
+
+    public static final Item TEST_MYTH = register(
+            "test_myth",
+            Item::new,
+            new Item.Properties()
+                    .rarity(ModRarities.MYTH)
+    );
+
     public static void initialize() {
     }
 }

@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 15
+  },
+  "gives": {
+    "id": "minecraft:decorated_pot"
+  },
+  "given_item_modifier": {
+    "type": "ancient-myth:random_pot_decorations",
+    "items": "#minecraft:decorated_pot_sherds"
+  },
+  "max_uses": 8,
+  "xp": 20,
+  "reputation_discount": 0.05
+}

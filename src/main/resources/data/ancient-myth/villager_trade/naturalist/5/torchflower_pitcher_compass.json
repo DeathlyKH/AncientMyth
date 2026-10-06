@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:torchflower",
+    "count": 10
+  },
+  "additional_wants": {
+    "id": "minecraft:pitcher_plant",
+    "count": 5
+  },
+  "gives": {
+    "id": "ancient-myth:ancient_ruins_compass"
+  },
+  "max_uses": 12,
+  "xp": 30,
+  "reputation_discount": 0.05
+}

@@ -1,0 +1,6 @@
+classTweaker v2 official
+
+extend-enum net/minecraft/world/item/Rarity ANCIENT_MYTH_ARCANE
+extend-enum net/minecraft/world/item/Rarity ANCIENT_MYTH_LEGENDARY
+extend-enum net/minecraft/world/item/Rarity ANCIENT_MYTH_FORBIDDEN
+extend-enum net/minecraft/world/item/Rarity ANCIENT_MYTH_MYTH

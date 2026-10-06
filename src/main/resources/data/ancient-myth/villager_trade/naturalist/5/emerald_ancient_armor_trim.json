@@ -1,0 +1,7 @@
+{
+  "wants": {"id": "minecraft:emerald", "count": 52},
+  "gives": {"id": "ancient-myth:ancient_armor_trim_smithing_template"},
+  "max_uses": 2,
+  "xp": 30,
+  "reputation_discount": 0.05
+}

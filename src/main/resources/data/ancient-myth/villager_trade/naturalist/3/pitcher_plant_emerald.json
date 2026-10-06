@@ -1,0 +1,7 @@
+{
+  "wants": {"id": "minecraft:pitcher_plant", "count": 2},
+  "gives": {"id": "minecraft:emerald"},
+  "max_uses": 12,
+  "xp": 20,
+  "reputation_discount": 0.05
+}

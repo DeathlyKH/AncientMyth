@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.gyc.ancientmyth.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AbstractVillagerInvoker",
+    "VillagerMixin",
+    "ItemStackMixin",
+    "RarityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

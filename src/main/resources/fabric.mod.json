@@ -25,7 +25,10 @@
 			"com.gyc.ancientmyth.client.AncientMythDataGenerator"
 		]
 	},
-
+	"mixins": [
+		"ancient-myth.mixins.json"
+	],
+	"accessWidener": "ancient-myth.classtweaker",
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~26.3",

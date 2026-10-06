@@ -1,3 +1,13 @@
 {
-  "block.ancient-myth.plant_research_table": "Plant Research Table"
+  "block.ancient-myth.plant_research_table": "Plant Research Table",
+
+  "item.ancient-myth.ancient_armor_trim_smithing_template": "Ancient Armor Trim",
+  "item.ancient-myth.ancient_ruins_compass": "Ancient Ruins Compass",
+  "item.ancient-myth.test_arcane": "ARCANE Test",
+  "item.ancient-myth.test_legendary": "LEGENDARY Test",
+  "item.ancient-myth.test_forbidden": "FORBIDDEN Test",
+  "item.ancient-myth.test_myth": "MYTH Test",
+
+  "entity.minecraft.villager.ancient-myth.naturalist": "Naturalist"
+
 }
