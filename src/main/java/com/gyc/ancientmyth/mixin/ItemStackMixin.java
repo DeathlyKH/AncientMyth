@@ -35,4 +35,29 @@ public abstract class ItemStackMixin {
                         .withStyle(style -> style.withColor(color))
         );
     }
+
+
+    @Inject(
+            method = "getRarity",
+            at = @At("RETURN"),
+            cancellable = true
+    )
+    private void ancientMyth$applyTaggedRarity(
+            CallbackInfoReturnable<Rarity> cir
+    ) {
+        ItemStack stack = (ItemStack) (Object) this;
+
+        Rarity original = cir.getReturnValue();
+
+        Rarity resolved = ModRarities.resolveTaggedRarity(
+                stack,
+                original
+        );
+
+        if (resolved != original) {
+            cir.setReturnValue(resolved);
+        }
+    }
+
+
 }

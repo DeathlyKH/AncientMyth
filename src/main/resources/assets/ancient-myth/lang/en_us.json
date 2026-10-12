@@ -1,5 +1,8 @@
 {
   "block.ancient-myth.plant_research_table": "Plant Research Table",
+  "block.ancient-myth.ancient_dirt": "Ancient Dirt",
+  "block.ancient-myth.complete_torchflower": "Complete Torchflower",
+  "block.ancient-myth.ancient_farmland": "Ancient Farmland",
 
   "item.ancient-myth.ancient_armor_trim_smithing_template": "Ancient Armor Trim",
   "item.ancient-myth.ancient_ruins_compass": "Ancient Ruins Compass",
@@ -8,6 +11,16 @@
   "item.ancient-myth.test_forbidden": "FORBIDDEN Test",
   "item.ancient-myth.test_myth": "MYTH Test",
 
-  "entity.minecraft.villager.ancient-myth.naturalist": "Naturalist"
+  "entity.minecraft.villager.ancient-myth.naturalist": "Naturalist",
+
+  "rarity.ancient-myth.common": "Common",
+  "rarity.ancient-myth.uncommon": "Uncommon",
+  "rarity.ancient-myth.rare": "Rare",
+  "rarity.ancient-myth.epic": "Epic",
+  "rarity.ancient-myth.arcane": "Arcane",
+  "rarity.ancient-myth.legendary": "Legendary",
+  "rarity.ancient-myth.forbidden": "Forbidden",
+  "rarity.ancient-myth.myth": "Myth"
+
 
 }

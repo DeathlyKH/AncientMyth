@@ -7,11 +7,13 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import com.gyc.ancientmyth.client.render.PlantResearchTableBlockEntityRenderer;
 import com.gyc.ancientmyth.registry.ModBlockEntities;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
+import com.gyc.ancientmyth.client.ui.RarityTooltip;
 
 public class AncientMythClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		RarityTooltip.initialize();
 		MenuScreens.register(
 				ModMenus.PLANT_RESEARCH_TABLE,
 				PlantResearchTableScreen::new

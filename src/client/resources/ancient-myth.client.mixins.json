@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.gyc.ancientmyth.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "client.HudMixin",
+    "client.ItemTooltipStyleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

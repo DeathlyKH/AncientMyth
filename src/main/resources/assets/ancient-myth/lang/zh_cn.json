@@ -1,5 +1,8 @@
 {
   "block.ancient-myth.plant_research_table": "植物研究台",
+  "block.ancient-myth.ancient_dirt": "远古泥土",
+  "block.ancient-myth.complete_torchflower": "完整火把花",
+  "block.ancient-myth.ancient_farmland": "远古耕地",
 
   "item.ancient-myth.ancient_armor_trim_smithing_template": "远古盔甲纹饰",
   "item.ancient-myth.ancient_ruins_compass": "远古遗迹指南针",
@@ -8,6 +11,16 @@
   "item.ancient-myth.test_forbidden": "FORBIDDEN 测试",
   "item.ancient-myth.test_myth": "MYTH 测试",
 
-  "entity.minecraft.villager.ancient-myth.naturalist": "博物学家"
+  "entity.minecraft.villager.ancient-myth.naturalist": "博物学家",
+
+  "rarity.ancient-myth.common": "普通",
+  "rarity.ancient-myth.uncommon": "稀有",
+  "rarity.ancient-myth.rare": "罕见",
+  "rarity.ancient-myth.epic": "史诗",
+  "rarity.ancient-myth.arcane": "奥秘",
+  "rarity.ancient-myth.legendary": "传奇",
+  "rarity.ancient-myth.forbidden": "禁忌",
+  "rarity.ancient-myth.myth": "神话"
+
 
 }

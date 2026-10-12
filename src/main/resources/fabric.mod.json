@@ -25,8 +25,13 @@
 			"com.gyc.ancientmyth.client.AncientMythDataGenerator"
 		]
 	},
+
 	"mixins": [
-		"ancient-myth.mixins.json"
+		"ancient-myth.mixins.json",
+		{
+			"config": "ancient-myth.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"accessWidener": "ancient-myth.classtweaker",
 	"depends": {

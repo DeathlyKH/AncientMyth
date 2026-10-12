@@ -1,6 +1,9 @@
 package com.gyc.ancientmyth.registry;
 
 import net.minecraft.world.item.Rarity;
+import net.minecraft.core.Holder;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 
 public final class ModRarities {
 
@@ -43,6 +46,37 @@ public final class ModRarities {
 
         return -1;
     }
+
+
+    public static Rarity resolveTaggedRarity(
+            ItemStack stack,
+            Rarity original
+    ) {
+        if (stack.isEmpty()) {
+            return original;
+        }
+
+        Holder<Item> item = stack.typeHolder();
+
+        if (item.is(ModItemTags.RARITY_MYTH)) {
+            return MYTH;
+        }
+
+        if (item.is(ModItemTags.RARITY_FORBIDDEN)) {
+            return FORBIDDEN;
+        }
+
+        if (item.is(ModItemTags.RARITY_LEGENDARY)) {
+            return LEGENDARY;
+        }
+
+        if (item.is(ModItemTags.RARITY_ARCANE)) {
+            return ARCANE;
+        }
+
+        return original;
+    }
+
 
     public static void initialize() {
     }
