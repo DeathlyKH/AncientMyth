@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.network.chat.Style;
 
 public final class RarityTooltip {
 
@@ -47,11 +48,22 @@ public final class RarityTooltip {
                         // 动态处理稀有度副标题
                         lines.add(
                                 1,
-                                MythGradient.animate(label)
+                                markSubtitle(
+                                        Component.literal(" ")
+                                                .append(
+                                                        MythGradient.animate(label)
+                                                )
+                                )
                         );
 
                     } else {
-                        lines.add(1, label);
+                        lines.add(
+                                1,
+                                markSubtitle(
+                                        Component.literal(" ")
+                                                .append(label)
+                                )
+                        );
                     }
                 }
         );
@@ -87,4 +99,13 @@ public final class RarityTooltip {
                 "rarity.ancient-myth." + key
         );
     }
+
+    private static Component markSubtitle(
+            Component component
+    ) {
+        return component.copy().withStyle(
+                style -> style.withItalic(true)
+        );
+    }
+
 }
