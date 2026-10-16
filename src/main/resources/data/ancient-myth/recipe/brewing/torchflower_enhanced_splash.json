@@ -1,0 +1,12 @@
+{
+  "type": "ancient-myth:potion_form_conversion",
+  "input": {
+    "item": "minecraft:potion"
+  },
+  "reagent": {
+    "item": "minecraft:gunpowder"
+  },
+  "output": {
+    "id": "minecraft:splash_potion"
+  }
+}

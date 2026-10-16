@@ -4,6 +4,7 @@ package com.gyc.ancientmyth.potion;
 import com.gyc.ancientmyth.registry.ModDataComponents;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.alchemy.PotionContents;
@@ -105,4 +106,24 @@ public final class PotionEnhancementHelper {
 
         return result;
     }
+
+    public static boolean canConvertForm(ItemStack stack) {
+        return (stack.is(Items.POTION) || stack.is(Items.SPLASH_POTION))
+                && stack.getOrDefault(
+                ModDataComponents.TORCHFLOWER_ENHANCEMENTS,
+                0
+        ) > 0;
+    }
+
+    public static ItemStack convertForm(
+            ItemStack original,
+            Item target
+    ) {
+        if (!canConvertForm(original)) {
+            return ItemStack.EMPTY;
+        }
+
+        return original.transmuteCopy(target);
+    }
+
 }

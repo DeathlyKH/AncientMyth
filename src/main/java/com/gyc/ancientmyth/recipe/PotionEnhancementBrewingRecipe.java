@@ -62,4 +62,5 @@ public class PotionEnhancementBrewingRecipe extends BrewingRecipe {
     public RecipeSerializer<BrewingRecipe> getSerializer() {
         return SERIALIZER;
     }
+
 }
