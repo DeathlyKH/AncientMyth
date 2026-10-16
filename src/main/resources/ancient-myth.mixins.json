@@ -6,7 +6,8 @@
     "AbstractVillagerInvoker",
     "VillagerMixin",
     "ItemStackMixin",
-    "RarityMixin"
+    "RarityMixin",
+    "TorchflowerSeedPlacementMixin"
   ],
   "injectors": {
     "defaultRequire": 1

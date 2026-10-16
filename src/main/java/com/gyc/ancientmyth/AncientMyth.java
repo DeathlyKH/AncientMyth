@@ -19,6 +19,7 @@ public class AncientMyth implements ModInitializer {
 
 		ModDataComponents.initialize();
 		ModLootFunctions.initialize();
+		ModRecipeSerializers.initialize();
 
 		ModBlocks.initialize();
 		ModBlockEntities.initialize();

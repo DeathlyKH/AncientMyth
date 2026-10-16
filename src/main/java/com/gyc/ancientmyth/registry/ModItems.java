@@ -84,6 +84,13 @@ public final class ModItems {
                     .rarity(ModRarities.MYTH)
     );
 
+    public static final Item TORCHFLOWER_ESSENCE = register(
+            "torchflower_essence",
+            Item::new,
+            new Item.Properties()
+                    .rarity(ModRarities.LEGENDARY)
+    );
+
     public static void initialize() {
     }
 }

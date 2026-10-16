@@ -2,6 +2,7 @@ package com.gyc.ancientmyth.registry;
 
 import com.gyc.ancientmyth.AncientMyth;
 import com.gyc.ancientmyth.block.AncientFarmlandBlock;
+import com.gyc.ancientmyth.block.CompleteTorchflowerCropBlock;
 import com.gyc.ancientmyth.block.PlantResearchTableBlock;
 import net.fabricmc.fabric.api.item.v1.BlockTransformerHelper;
 import net.minecraft.core.Registry;
@@ -152,6 +153,17 @@ public final class ModBlocks {
                             .randomTicks()
             );
 
+    public static final Block COMPLETE_TORCHFLOWER_CROP =
+            registerWithoutItem(
+                    "complete_torchflower_crop",
+                    CompleteTorchflowerCropBlock::new,
+                    BlockBehaviour.Properties.of()
+                            .noCollision()
+                            .noOcclusion()
+                            .randomTicks()
+                            .sound(SoundType.CROP)
+            );
+
     public static final Block COMPLETE_TORCHFLOWER = register(
             "complete_torchflower",
             CompleteTorchflowerBlock::new,
@@ -161,8 +173,6 @@ public final class ModBlocks {
                     .instabreak()
                     .sound(SoundType.GRASS)
     );
-
-
 
     public static void initialize() {
         BlockTransformerHelper.registerTilling(

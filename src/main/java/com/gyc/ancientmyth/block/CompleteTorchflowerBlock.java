@@ -28,7 +28,8 @@ public class CompleteTorchflowerBlock extends VegetationBlock {
             BlockGetter level,
             BlockPos pos
     ) {
-        return state.is(ModBlocks.ANCIENT_DIRT);
+        return state.is(ModBlocks.ANCIENT_DIRT)
+                || state.is(ModBlocks.ANCIENT_FARMLAND);
     }
 
     @Override

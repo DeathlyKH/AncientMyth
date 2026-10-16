@@ -1,0 +1,12 @@
+{
+  "type": "ancient-myth:potion_enhancement",
+  "input": {
+    "item": "minecraft:potion"
+  },
+  "reagent": {
+    "item": "minecraft:torchflower"
+  },
+  "output": {
+    "id": "minecraft:potion"
+  }
+}
